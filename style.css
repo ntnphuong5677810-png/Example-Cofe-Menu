@@ -1,0 +1,198 @@
+.frame {
+  width: 1428px;
+  height: 801px;
+  border: 1px solid rgb(206, 138, 141);
+  margin: 30px 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  border: 1px solid #d9b5b7;
+}
+
+.title {
+  padding: 20px 0 20px 0;
+}
+
+h1 {
+  color: #9e2e39;
+  text-align: center;
+  text-shadow: 8px 10px 0px #f4c2ca;
+}
+
+header {
+  background-color: #ea9696;
+  border: 1px solid #d9b5b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 50px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo img {
+  width: 40px;
+  height: 30px;
+}
+
+.head {
+  color: aliceblue;
+}
+
+.spec {
+  margin-left: 15px;
+}
+
+.go {
+  /* margin: 20px 0 20px 0; */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 45px;
+}
+.search {
+  height: 20px;
+}
+
+.button {
+  padding: 2px 7px;
+}
+
+.line {
+  width: 1px;
+  height: 36px;
+  background-color: blue;
+}
+
+.menu {
+  display: flex;
+  gap: 5px;
+}
+
+.left {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0;
+}
+.left-1 {
+  border-radius: 20px;
+  background-color: #ea9696;
+  color: white;
+  padding: 7px 10px;
+}
+.left-2 {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.left-2 img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 10px 30px 30px #ea9696;
+}
+
+.content {
+  width: 820px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.menu-2 {
+  background-color: #ea9696;
+  border-radius: 0%;
+  size: 36px;
+  width: 360px;
+  height: 30px;
+  text-align: left;
+  font-size: 24px;
+  margin: 0 200px;
+  color: rgb(151, 43, 46);
+  letter-spacing: 15px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+ul {
+  margin: 0 30px;
+}
+.itemp {
+  color: red;
+  font-weight: bold;
+}
+
+table tbody {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+tr {
+  display: flex;
+  gap: 20px;
+}
+
+.right {
+  background-color: black;
+  border-radius: 0%;
+  width: 398px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.a1 {
+  color: white;
+  font-size: 25px;
+}
+
+.a2 {
+  color: white;
+  margin: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  grap: 30px;
+}
+
+.a21 {
+  font-size: 25px;
+}
+
+.a22 img {
+  width: 300px;
+  height: 170px;
+  font-size: 20px;
+}
+
+.Read {
+  color: #ea9696;
+}
+
+.end {
+  background-color: #ea9696;
+  border-radius: 0%;
+  height: 62px;
+  text-align: center;
+  font-size: 28px;
+  align-content: center;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.end sup {
+  font-size: 0.75em;
+  vertical-align: super;
+}
