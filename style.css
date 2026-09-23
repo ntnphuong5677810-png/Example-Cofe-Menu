@@ -1,8 +1,11 @@
 .frame {
-  width: 1428px;
-  height: 801px;
+  width: 1320px;
+  height: 806px;
   border: 1px solid rgb(206, 138, 141);
-  margin: 30px 30px;
+  /* margin: 30px 30px; */
+  margin: 0 auto;
+  margin-top: 30px;
+  box-sizing: border-box;
 }
 
 * {
@@ -35,13 +38,15 @@ header {
 }
 
 .logo {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-right: -20px;
 }
 
 .logo img {
-  width: 40px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 .head {
@@ -57,13 +62,13 @@ header {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 .search {
   height: 20px;
 }
 
-.button {
+.button-go {
   padding: 2px 7px;
 }
 
@@ -133,7 +138,7 @@ ul {
 }
 
 table tbody {
-  padding: 10px 10px;
+  padding: 10px 10px 5px 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -144,55 +149,79 @@ tr {
   gap: 20px;
 }
 
+textarea::placeholder {
+  color: black;
+}
+
 .right {
   background-color: black;
   border-radius: 0%;
-  width: 398px;
-  height: 550px;
+  width: 300px;
+  height: 544px;
+  margin-top: 10px;
+  margin-right: 0;
+  color: white;
+}
+
+.a {
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  gap: 30px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .a1 {
-  color: white;
   font-size: 25px;
 }
 
 .a2 {
-  color: white;
-  margin: 10px 40px;
-  display: flex;
-  flex-direction: column;
-  grap: 30px;
+  /* font-size: 20px; */
 }
 
-.a21 {
-  font-size: 25px;
+.a2 img {
+  width: 240px;
+  height: 100px;
 }
 
-.a22 img {
-  width: 300px;
-  height: 170px;
-  font-size: 20px;
-}
-
-.Read {
+.read {
   color: #ea9696;
 }
 
-.end {
-  background-color: #ea9696;
-  border-radius: 0%;
-  height: 62px;
-  text-align: center;
-  font-size: 28px;
-  align-content: center;
+footer {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e99298;
+  color: white;
+  font-size: 25px;
   font-weight: bold;
-  color: aliceblue;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
 }
 
-.end sup {
-  font-size: 0.75em;
-  vertical-align: super;
+.wrap-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.button {
+  padding: 10px 10px;
+}
+
+.wrap-button {
+  padding: 0 10px 20px 10px;
+}
+
+.wrap-comment {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right-table tbody {
+  padding: 30px;
 }

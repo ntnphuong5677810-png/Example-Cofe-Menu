@@ -26,7 +26,7 @@
 
           <div class="go">
             <input type="text" class="search" name="go" required />
-            <button class="button" type="button">Go</button>
+            <button class="button-go" type="button">Go</button>
           </div>
         </header>
       </div>
@@ -88,7 +88,7 @@
                     type="text"
                     id="Name2"
                     name="Name2"
-                    placeholder=" Last Name"
+                    placeholder=" Last Name*"
                     style="width: 350px; height: 30px"
                   />
                 </td>
@@ -133,52 +133,52 @@
                 </td>
               </tr>
               <tr>
-                <td>
-                  <input
-                    type="text"
+                <td class="wrap-comment">
+                  <textarea
                     name="Comment"
-                    style="width: 730px; height: 100px"
-                    value="Comment"
+                    id="Comment"
+                    style="width: 720px; height: 100px"
+                    placeholder="Comment"
+                    rows="5"
+                    box-sizing:
+                    border-box
                     required
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <input type="button" value="Submit" />
-                  <input type="button" value="Cacel" />
+                  ></textarea>
                 </td>
               </tr>
             </table>
+            <div class="wrap-button">
+              <input class="button" type="button" value="Submit" />
+              <input class="button" type="button" value="Cacel" />
+            </div>
           </div>
         </div>
         <div class="right">
-          <div class="a1">Events</div>
-          <div class="a2">
-            <div class="a21">Regular Meetings</div>
-            <div class="a22">
-              <img src="./assets/meeting.png" alt="" />
-              <div class="a22">
+          <div class="a">Events</div>
+          <table class="right-table">
+            <tr class="wrap-content">
+              <td class="a1">Regular Meetings</td>
+              <td class="a2"><img src="./assets/meeting.png" alt="" /></td>
+              <td class="a2">
                 Host your regular team meetings or activities in the comfort of
-                your own private room.
-                <a href="#" class="Read">Read <br />more...</a>
-              </div>
-            </div>
-            <div class="a21">Product Launches</div>
-            <div class="a22">
-              <img src="./assets/launch.png" alt="" />
-            </div>
-            <div class="a22">
-              Launch your product with ease in s space that truly fits its
-              image.
-              <a href="#" class="Read">Read more...</a>
-            </div>
-          </div>
+                your own private room. <a href="#" class="read">Read more...</a>
+              </td>
+            </tr>
+
+            <tr class="wrap-content">
+              <td class="a1">Product Launches</td>
+              <td class="a2">
+                <img src="./assets/launch.png" alt="" />
+              </td>
+              <td class="a2">
+                Launch your product with ease in a space that truly fits its
+                image. <a href="#" class="read">Read more...</a>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
-      <div class="end">
-        ABC Company <sup>&copy;</sup> - 12345678 - abccoffee@gmail.com
-      </div>
+      <footer>ABC Company <sup>©</sup> - 12345678 - abccoffee@gmail.com</footer>
     </div>
   </body>
 </html>
