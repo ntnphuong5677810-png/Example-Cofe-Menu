@@ -1,5 +1,5 @@
 .frame {
-  width: 1320px;
+  width: 1380px;
   height: 820px;
   border: 1px solid rgb(206, 138, 141);
   /* margin: 30px 30px; */
@@ -30,6 +30,7 @@ h1 {
 header {
   background-color: #ea9696;
   border: 1px solid #d9b5b7;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,8 +50,8 @@ header {
   height: 20px;
 }
 
-.head {
-  color: aliceblue;
+.head1 {
+  margin-right: -20px;
 }
 
 .spec {
@@ -84,7 +85,7 @@ header {
 }
 
 .left {
-  width: 200px;
+  width: 260px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -94,7 +95,7 @@ header {
   border-radius: 20px;
   background-color: #ea9696;
   color: white;
-  padding: 7px 10px;
+  padding: 10px 20px;
 }
 .left-2 {
   width: 100%;
@@ -118,7 +119,7 @@ header {
   background-color: #ea9696;
   border-radius: 0%;
   size: 36px;
-  width: 360px;
+  width: 370px;
   height: 30px;
   text-align: left;
   font-size: 24px;
@@ -166,7 +167,7 @@ textarea::placeholder {
 .a {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -176,12 +177,12 @@ textarea::placeholder {
 }
 
 .a2 {
-  /* font-size: 20px; */
+  font-size: 12px;
 }
 
 .a2 img {
   width: 240px;
-  height: 100px;
+  height: 146px;
 }
 
 .read {
